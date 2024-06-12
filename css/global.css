@@ -1,21 +1,81 @@
-.nav-item-spaced2 {
-    margin-left: 220px;
-}
+body {
+            background-color: #1b1b1b;
+            color: #ffffff;
+        }
 
-.nav-item-spaced3 {
-    margin-left: 220px;
-}
+        .navbar-brand span {
+            color: #00d8ff;
+        }
 
-.image-container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background: url('/img/pofo1!.webp') no-repeat center center/cover;
-}
-a {
-    width: 300px;
-}
+        .btn {
+            background-color: #00d8ff;
+        }
 
-.navbar-custom {
-    background-color: rgba(0, 0, 0, 0.24);
-}
+        span {
+            color: #00d8ff;
+        }
+        .navbar-nav .nav-link {
+            position: relative;
+            color: white;
+        }
+
+        .navbar-nav .nav-link.active {
+            color: #00d8ff;
+        }
+
+
+        .circle-image {
+            border-radius: 50%;
+            overflow: hidden;
+            width: 250px;
+            height: 250px;
+            margin: 0 auto;
+            transition: 0.3s ease-in-out;
+        }
+        
+        .circle-image img {
+            width: 100%;
+            height: auto;
+        }
+
+        .navbar-nav .nav-link.active::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: -5px;
+            height: 3px;
+            background-color: #00d8ff;
+        }
+
+        .section {
+            padding: 60px 0;
+        }
+
+        .circle-image {
+            border-radius: 50%;
+            overflow: hidden;
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+        }
+
+        .circle-image img {
+            width: 100%;
+            height: auto;
+        }
+
+        .section {
+            padding: 60px 0;
+        }
+
+        .services .card {
+            background-color: #00d8ff;
+            color: #1b1b1b;
+            border: none;
+        }
+
+        .services .card:hover {
+            background-color: #1b1b1b;
+            color: #00d8ff;
+        }

@@ -48,9 +48,6 @@ body {
             background-color: #00d8ff;
         }
 
-        .section {
-            padding: 60px 0;
-        }
 
         .circle-image {
             border-radius: 50%;
@@ -65,10 +62,6 @@ body {
             height: auto;
         }
 
-        .section {
-            padding: 60px 0;
-        }
-
         .services .card {
             background-color: #00d8ff;
             color: #1b1b1b;
@@ -78,4 +71,10 @@ body {
         .services .card:hover {
             background-color: #1b1b1b;
             color: #00d8ff;
+        }
+
+        .card:hover {
+            background-color: #1b1b1b;
+            color: white;
+            transition: background-color 0.3s, color 0.3s; 
         }
